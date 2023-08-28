@@ -1,0 +1,25 @@
+{
+  "name": "gum",
+  "version": "1.0.0",
+  "description": "trying",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "harshit jharotiya",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5 <2.23.2",
+    "lite-server": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjharotiya/webcam-fun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hjharotiya/webcam-fun/issues"
+  },
+  "homepage": "https://github.com/hjharotiya/webcam-fun#readme"
+}
