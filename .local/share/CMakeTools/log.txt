@@ -1,0 +1,65 @@
+2021-06-14T18:53:24.370Z [debug] [main] Safe constructing new CMakeTools instance
+2021-06-14T18:53:24.370Z [debug] [variant] Constructing VariantManager
+2021-06-14T18:53:24.371Z [debug] [main] Constructing new CMakeTools instance
+2021-06-14T18:53:24.372Z [debug] [main] Starting CMakeTools second-phase init
+2021-06-14T18:53:24.789Z [info] [variant] Loaded new set of variants
+2021-06-14T18:53:24.790Z [debug] [main] CMakeTools instance initialization complete.
+2021-06-14T18:53:24.808Z [debug] [kit] Reading kits file /Users/harshitjharotiya/.local/share/CMakeTools/cmake-tools-kits.json
+2021-06-14T18:53:25.106Z [info] [kit] Successfully loaded 2 kits from /Users/harshitjharotiya/.local/share/CMakeTools/cmake-tools-kits.json
+2021-06-14T18:53:25.235Z [debug] [kit] Not reading non-existent kits file: /Users/harshitjharotiya/.vscode/cmake-kits.json
+2021-06-14T18:53:25.622Z [debug] [main] Injecting new Kit into CMake driver
+2021-06-14T19:15:27.768Z [debug] [extension] Deactivate CMakeTools
+on open file:///Users/harshitjharotiya
+2021-03-06T10:09:55.793Z [info] [main] Configuring folder: harshitjharotiya 
+2021-03-06T10:09:55.793Z [debug] [main] Saving open files before configure/build
+2021-03-06T10:19:08.629Z [debug] [extension] Deactivate CMakeTools
+155Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2021-03-06T09:50:38.156Z [debug] [kit] Scanning directory /sbin for compilers
+2021-03-06T09:50:38.156Z [debug] [kit] Scanning directory /Library/Apple/usr/bin for compilers
+2021-03-06T09:50:38.156Z [debug] [kit] Skipping scan of not existing path C:\Program Files (x86)\LLVM\bin
+2021-03-06T09:50:38.156Z [debug] [kit] Found 0 kits in directory C:\Program Files (x86)\LLVM\bin
+2021-03-06T09:50:38.157Z [debug] [kit] Skipping scan of not existing path C:\Program Files\LLVM\bin
+2021-03-06T09:50:38.157Z [debug] [kit] Found 0 kits in directory C:\Program Files\LLVM\bin
+2021-03-06T09:50:38.165Z [debug] [kit] Found 0 kits in directory /bin
+2021-03-06T09:50:38.167Z [debug] [kit] Testing GCC binary: /usr/local/bin/i686-w64-mingw32-gcc
+2021-03-06T09:50:38.184Z [debug] [kit] Testing GCC binary: /usr/local/bin/i686-w64-mingw32-gcc-10.2.0
+2021-03-06T09:50:38.202Z [debug] [kit] Testing GCC binary: /usr/local/bin/x86_64-w64-mingw32-gcc
+2021-03-06T09:50:38.216Z [debug] [kit] Testing GCC binary: /usr/local/bin/x86_64-w64-mingw32-gcc-10.2.0
+2021-03-06T09:50:38.280Z [debug] [kit] Found 0 kits in directory /Library/Apple/usr/bin
+2021-03-06T09:50:38.306Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2021-03-06T09:50:38.311Z [debug] [kit] Found 0 kits in directory /sbin
+2021-03-06T09:50:38.331Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2021-03-06T09:50:38.332Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2021-03-06T09:50:38.390Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2021-03-06T09:50:38.416Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2021-03-06T09:50:38.482Z [debug] [kit] Bad GCC binary ("-v" returns non-zero): /usr/bin/llvm-gcc
+2021-03-06T09:50:38.482Z [debug] [kit] Bad GCC binary ("-v" returns non-zero): /usr/bin/gcc
+2021-03-06T09:50:38.482Z [debug] [kit] Bad Clang binary ("-v" returns non-zero): /usr/bin/clang
+2021-03-06T09:50:38.483Z [debug] [kit] Found 0 kits in directory /usr/bin
+2021-03-06T09:50:38.899Z [debug] [kit] Detected GCC compiler: /usr/local/bin/i686-w64-mingw32-gcc-10.2.0
+2021-03-06T09:50:38.998Z [debug] [kit] Detected GCC compiler: /usr/local/bin/i686-w64-mingw32-gcc
+2021-03-06T09:50:39.250Z [debug] [kit] Detected GCC compiler: /usr/local/bin/x86_64-w64-mingw32-gcc
+2021-03-06T09:50:39.298Z [debug] [kit] Detected GCC compiler: /usr/local/bin/x86_64-w64-mingw32-gcc-10.2.0
+2021-03-06T09:50:39.298Z [debug] [kit] Found 4 kits in directory /usr/local/bin
+2021-03-06T09:50:39.299Z [info] [kit] Found Kit: GCC for i686-w64-mingw32 10.2.0
+2021-03-06T09:50:39.299Z [info] [kit] Found Kit: GCC for i686-w64-mingw32 10.2.0
+2021-03-06T09:50:39.299Z [info] [kit] Found Kit: GCC for x86_64-w64-mingw32 10.2.0
+2021-03-06T09:50:39.299Z [info] [kit] Found Kit: GCC for x86_64-w64-mingw32 10.2.0
+2021-03-06T09:50:39.300Z [debug] [kitsController] Saving kits to /Users/harshitjharotiya/.local/share/CMakeTools/cmake-tools-kits.json
+2021-03-06T09:50:39.300Z [debug] [kitsController] Saving new kits to /Users/harshitjharotiya/.local/share/CMakeTools/cmake-tools-kits.json
+2021-03-06T09:50:42.952Z [debug] [extension] Configuring workspace on open file:///Users/harshitjharotiya
+2021-03-06T09:50:42.953Z [debug] [kitsController] Start selection of kits. Found 4 kits.
+2021-03-06T09:50:42.956Z [debug] [kitsController] Opening kit selection QuickPick
+2021-03-06T09:50:44.628Z [debug] [kitsController] User cancelled Kit selection
+2021-03-06T09:50:44.910Z [debug] [main] Not starting CMake driver: no kits defined
+2021-03-06T09:50:44.911Z [debug] [main] Not starting CMake driver: no kits defined
+2021-03-06T09:51:18.703Z [debug] [extension] [1207] cmake.launchTarget started
+2021-03-06T09:51:18.704Z [debug] [kitsController] Start selection of kits. Found 4 kits.
+2021-03-06T09:51:18.704Z [debug] [kitsController] Opening kit selection QuickPick
+2021-03-06T09:51:22.421Z [debug] [kitsController] User selected kit {"label":"GCC for i686-w64-mingw32 10.2.0","description":"Using compilers: C = /usr/local/bin/i686-w64-mingw32-gcc-10.2.0","kit":{"name":"GCC for i686-w64-mingw32 10.2.0","compilers":{"C":"/usr/local/bin/i686-w64-mingw32-gcc-10.2.0"}}}
+2021-03-06T09:51:22.423Z [debug] [main] Injecting new Kit into CMake driver
+2021-03-06T09:51:22.432Z [info] [main] Configuring folder: harshitjharotiya 
+2021-03-06T09:51:22.433Z [debug] [main] Saving open files before configure/build
+2021-03-06T09:51:22.488Z [debug] [main] Configuration of project failed.
+2021-03-06T09:51:22.489Z [debug] [extension] [1207] cmake.launchTarget finished (returned null)
+2021-03-06T09:51:29.415Z [debug] [extension] Deactivate CMakeTools

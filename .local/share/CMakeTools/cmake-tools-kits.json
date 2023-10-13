@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GCC for i686-w64-mingw32 10.2.0",
+    "compilers": {
+      "C": "/usr/local/bin/i686-w64-mingw32-gcc-10.2.0"
+    }
+  },
+  {
+    "name": "GCC for x86_64-w64-mingw32 10.2.0",
+    "compilers": {
+      "C": "/usr/local/bin/x86_64-w64-mingw32-gcc-10.2.0"
+    }
+  }
+]

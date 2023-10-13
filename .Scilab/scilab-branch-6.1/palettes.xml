@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<category name="Config" enable="true">
+    <node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Category" name="Palettes" enable="true">
+        <node xsi:type="PreLoaded" name="Recently Used Blocks" enable="true">
+            <block name="ANDBLK">
+                <icon path="/modules/xcos/images/palettes/ANDBLK.png" variable="SCI"/>
+            </block>
+            <block name="BIGSOM_f">
+                <icon path="/modules/xcos/images/palettes/BIGSOM_f.png" variable="SCI"/>
+            </block>
+            <block name="CMSCOPE">
+                <icon path="/modules/xcos/images/palettes/CMSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="SCALE_CMSCOPE">
+                <icon path="/modules/xcos/images/palettes/SCALE_CMSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CONST_m">
+                <icon path="/modules/xcos/images/palettes/CONST_m.png" variable="SCI"/>
+            </block>
+            <block name="CONVERT">
+                <icon path="/modules/xcos/images/palettes/CONVERT.png" variable="SCI"/>
+            </block>
+            <block name="CSCOPXY">
+                <icon path="/modules/xcos/images/palettes/CSCOPXY.png" variable="SCI"/>
+            </block>
+            <block name="DEMUX">
+                <icon path="/modules/xcos/images/palettes/DEMUX.png" variable="SCI"/>
+            </block>
+            <block name="DOLLAR_f">
+                <icon path="/modules/xcos/images/palettes/DOLLAR_f.png" variable="SCI"/>
+            </block>
+            <block name="INTEGRAL_f">
+                <icon path="/modules/xcos/images/palettes/INTEGRAL_f.png" variable="SCI"/>
+            </block>
+            <block name="IN_f">
+                <icon path="/modules/xcos/images/palettes/IN_f.png" variable="SCI"/>
+            </block>
+            <block name="LOGICAL_OP">
+                <icon path="/modules/xcos/images/palettes/LOGICAL_OP.png" variable="SCI"/>
+            </block>
+            <block name="MUX">
+                <icon path="/modules/xcos/images/palettes/MUX.png" variable="SCI"/>
+            </block>
+            <block name="NRMSOM_f">
+                <icon path="/modules/xcos/images/palettes/NRMSOM_f.png" variable="SCI"/>
+            </block>
+            <block name="OUT_f">
+                <icon path="/modules/xcos/images/palettes/OUT_f.png" variable="SCI"/>
+            </block>
+            <block name="PRODUCT">
+                <icon path="/modules/xcos/images/palettes/PRODUCT.png" variable="SCI"/>
+            </block>
+            <block name="RELATIONALOP">
+                <icon path="/modules/xcos/images/palettes/RELATIONALOP.png" variable="SCI"/>
+            </block>
+            <block name="SATURATION">
+                <icon path="/modules/xcos/images/palettes/SATURATION.png" variable="SCI"/>
+            </block>
+            <block name="SWITCH2_m">
+                <icon path="/modules/xcos/images/palettes/SWITCH2_m.png" variable="SCI"/>
+            </block>
+            <block name="TEXT_f">
+                <icon path="/modules/xcos/images/palettes/TEXT_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Continuous time systems" enable="true">
+            <block name="CLINDUMMY_f">
+                <icon path="/modules/xcos/images/palettes/CLINDUMMY_f.png" variable="SCI"/>
+            </block>
+            <block name="CLR">
+                <icon path="/modules/xcos/images/palettes/CLR.png" variable="SCI"/>
+            </block>
+            <block name="CLSS">
+                <icon path="/modules/xcos/images/palettes/CLSS.png" variable="SCI"/>
+            </block>
+            <block name="DERIV">
+                <icon path="/modules/xcos/images/palettes/DERIV.png" variable="SCI"/>
+            </block>
+            <block name="INTEGRAL_f">
+                <icon path="/modules/xcos/images/palettes/INTEGRAL_f.png" variable="SCI"/>
+            </block>
+            <block name="INTEGRAL_m">
+                <icon path="/modules/xcos/images/palettes/INTEGRAL_m.png" variable="SCI"/>
+            </block>
+            <block name="PID">
+                <icon path="/modules/xcos/images/palettes/PID.png" variable="SCI"/>
+            </block>
+            <block name="TCLSS">
+                <icon path="/modules/xcos/images/palettes/TCLSS.png" variable="SCI"/>
+            </block>
+            <block name="TIME_DELAY">
+                <icon path="/modules/xcos/images/palettes/TIME_DELAY.png" variable="SCI"/>
+            </block>
+            <block name="VARIABLE_DELAY">
+                <icon path="/modules/xcos/images/palettes/VARIABLE_DELAY.png" variable="SCI"/>
+            </block>
+            <block name="PDE">
+                <icon path="/modules/xcos/images/palettes/PDE.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Discontinuities" enable="true">
+            <block name="BACKLASH">
+                <icon path="/modules/xcos/images/palettes/BACKLASH.png" variable="SCI"/>
+            </block>
+            <block name="DEADBAND">
+                <icon path="/modules/xcos/images/palettes/DEADBAND.png" variable="SCI"/>
+            </block>
+            <block name="DELAYV_f">
+                <icon path="/modules/xcos/images/palettes/DELAYV_f.png" variable="SCI"/>
+            </block>
+            <block name="HYSTHERESIS">
+                <icon path="/modules/xcos/images/palettes/HYSTHERESIS.png" variable="SCI"/>
+            </block>
+            <block name="RATELIMITER">
+                <icon path="/modules/xcos/images/palettes/RATELIMITER.png" variable="SCI"/>
+            </block>
+            <block name="QUANT_f">
+                <icon path="/modules/xcos/images/palettes/QUANT_f.png" variable="SCI"/>
+            </block>
+            <block name="SATURATION">
+                <icon path="/modules/xcos/images/palettes/SATURATION.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Discrete time systems" enable="true">
+            <block name="AUTOMAT">
+                <icon path="/modules/xcos/images/palettes/AUTOMAT.png" variable="SCI"/>
+            </block>
+            <block name="DELAYV_f">
+                <icon path="/modules/xcos/images/palettes/DELAYV_f.png" variable="SCI"/>
+            </block>
+            <block name="DELAY_f">
+                <icon path="/modules/xcos/images/palettes/DELAY_f.png" variable="SCI"/>
+            </block>
+            <block name="DLR">
+                <icon path="/modules/xcos/images/palettes/DLR.png" variable="SCI"/>
+            </block>
+            <block name="DLRADAPT_f">
+                <icon path="/modules/xcos/images/palettes/DLRADAPT_f.png" variable="SCI"/>
+            </block>
+            <block name="DLSS">
+                <icon path="/modules/xcos/images/palettes/DLSS.png" variable="SCI"/>
+            </block>
+            <block name="DOLLAR_f">
+                <icon path="/modules/xcos/images/palettes/DOLLAR_f.png" variable="SCI"/>
+            </block>
+            <block name="DOLLAR">
+                <icon path="/modules/xcos/images/palettes/DOLLAR.png" variable="SCI"/>
+            </block>
+            <block name="DOLLAR_m">
+                <icon path="/modules/xcos/images/palettes/DOLLAR_m.png" variable="SCI"/>
+            </block>
+            <block name="SAMPHOLD_m">
+                <icon path="/modules/xcos/images/palettes/SAMPHOLD_m.png" variable="SCI"/>
+            </block>
+            <block name="TCLSS">
+                <icon path="/modules/xcos/images/palettes/TCLSS.png" variable="SCI"/>
+            </block>
+            <block name="REGISTER">
+                <icon path="/modules/xcos/images/palettes/REGISTER.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Lookup Tables" enable="true">
+            <block name="INTRP2BLK_f">
+                <icon path="/modules/xcos/images/palettes/INTRP2BLK_f.png" variable="SCI"/>
+            </block>
+            <block name="INTRPLBLK_f">
+                <icon path="/modules/xcos/images/palettes/INTRPLBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="LOOKUP_f">
+                <icon path="/modules/xcos/images/palettes/LOOKUP_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Event handling" enable="true">
+            <block name="CLOCK_c">
+                <icon path="/modules/xcos/images/palettes/CLOCK_c.png" variable="SCI"/>
+            </block>
+            <block name="SampleCLK">
+                <icon path="/modules/xcos/images/palettes/SampleCLK.png" variable="SCI"/>
+            </block>
+            <block name="VirtualCLK0">
+                <icon path="/modules/xcos/images/palettes/VirtualCLK0.png" variable="SCI"/>
+            </block>
+            <block name="ANDBLK">
+                <icon path="/modules/xcos/images/palettes/ANDBLK.png" variable="SCI"/>
+            </block>
+            <block name="ANDLOG_f">
+                <icon path="/modules/xcos/images/palettes/ANDLOG_f.png" variable="SCI"/>
+            </block>
+            <block name="CEVENTSCOPE">
+                <icon path="/modules/xcos/images/palettes/CEVENTSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CLKFROM">
+                <icon path="/modules/xcos/images/palettes/CLKFROM.png" variable="SCI"/>
+            </block>
+            <block name="CLKGOTO">
+                <icon path="/modules/xcos/images/palettes/CLKGOTO.png" variable="SCI"/>
+            </block>
+            <block name="CLKGotoTagVisibility">
+                <icon path="/modules/xcos/images/palettes/CLKGotoTagVisibility.png" variable="SCI"/>
+            </block>
+            <block name="CLKOUTV_f">
+                <icon path="/modules/xcos/images/palettes/CLKOUTV_f.png" variable="SCI"/>
+            </block>
+            <block name="CLKSOMV_f">
+                <icon path="/modules/xcos/images/palettes/CLKSOMV_f.png" variable="SCI"/>
+            </block>
+            <block name="EDGE_TRIGGER">
+                <icon path="/modules/xcos/images/palettes/EDGE_TRIGGER.png" variable="SCI"/>
+            </block>
+            <block name="ENDBLK">
+                <icon path="/modules/xcos/images/palettes/ENDBLK.png" variable="SCI"/>
+            </block>
+            <block name="END_c">
+                <icon path="/modules/xcos/images/palettes/END_c.png" variable="SCI"/>
+            </block>
+            <block name="ESELECT_f">
+                <icon path="/modules/xcos/images/palettes/ESELECT_f.png" variable="SCI"/>
+            </block>
+            <block name="EVTDLY_c">
+                <icon path="/modules/xcos/images/palettes/EVTDLY_c.png" variable="SCI"/>
+            </block>
+            <block name="EVTGEN_f">
+                <icon path="/modules/xcos/images/palettes/EVTGEN_f.png" variable="SCI"/>
+            </block>
+            <block name="EVTVARDLY">
+                <icon path="/modules/xcos/images/palettes/EVTVARDLY.png" variable="SCI"/>
+            </block>
+            <block name="Extract_Activation">
+                <icon path="/modules/xcos/images/palettes/Extract_Activation.png" variable="SCI"/>
+            </block>
+            <block name="HALT_f">
+                <icon path="/modules/xcos/images/palettes/HALT_f.png" variable="SCI"/>
+            </block>
+            <block name="IFTHEL_f">
+                <icon path="/modules/xcos/images/palettes/IFTHEL_f.png" variable="SCI"/>
+            </block>
+            <block name="M_freq">
+                <icon path="/modules/xcos/images/palettes/M_freq.png" variable="SCI"/>
+            </block>
+            <block name="MCLOCK_f">
+                <icon path="/modules/xcos/images/palettes/MCLOCK_f.png" variable="SCI"/>
+            </block>
+            <block name="MFCLCK_f">
+                <icon path="/modules/xcos/images/palettes/MFCLCK_f.png" variable="SCI"/>
+            </block>
+            <block name="freq_div">
+                <icon path="/modules/xcos/images/palettes/freq_div.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Mathematical Operations" enable="true">
+            <block name="ABS_VALUE">
+                <icon path="/modules/xcos/images/palettes/ABS_VALUE.png" variable="SCI"/>
+            </block>
+            <block name="BIGSOM_f">
+                <icon path="/modules/xcos/images/palettes/BIGSOM_f.png" variable="SCI"/>
+            </block>
+            <block name="COSBLK_f">
+                <icon path="/modules/xcos/images/palettes/COSBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="EXPBLK_m">
+                <icon path="/modules/xcos/images/palettes/EXPBLK_m.png" variable="SCI"/>
+            </block>
+            <block name="GAINBLK_f">
+                <icon path="/modules/xcos/images/palettes/GAINBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="GAINBLK">
+                <icon path="/modules/xcos/images/palettes/GAINBLK.png" variable="SCI"/>
+            </block>
+            <block name="GAIN_f">
+                <icon path="/modules/xcos/images/palettes/GAIN_f.png" variable="SCI"/>
+            </block>
+            <block name="INVBLK">
+                <icon path="/modules/xcos/images/palettes/INVBLK.png" variable="SCI"/>
+            </block>
+            <block name="LOGBLK_f">
+                <icon path="/modules/xcos/images/palettes/LOGBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="MATMAGPHI">
+                <icon path="/modules/xcos/images/palettes/MATMAGPHI.png" variable="SCI"/>
+            </block>
+            <block name="MATZREIM">
+                <icon path="/modules/xcos/images/palettes/MATZREIM.png" variable="SCI"/>
+            </block>
+            <block name="MAXMIN">
+                <icon path="/modules/xcos/images/palettes/MAXMIN.png" variable="SCI"/>
+            </block>
+            <block name="MAX_f">
+                <icon path="/modules/xcos/images/palettes/MAX_f.png" variable="SCI"/>
+            </block>
+            <block name="MIN_f">
+                <icon path="/modules/xcos/images/palettes/MIN_f.png" variable="SCI"/>
+            </block>
+            <block name="POWBLK_f">
+                <icon path="/modules/xcos/images/palettes/POWBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="PRODUCT">
+                <icon path="/modules/xcos/images/palettes/PRODUCT.png" variable="SCI"/>
+            </block>
+            <block name="PROD_f">
+                <icon path="/modules/xcos/images/palettes/PROD_f.png" variable="SCI"/>
+            </block>
+            <block name="SIGNUM">
+                <icon path="/modules/xcos/images/palettes/SIGNUM.png" variable="SCI"/>
+            </block>
+            <block name="SINBLK_f">
+                <icon path="/modules/xcos/images/palettes/SINBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="SQRT">
+                <icon path="/modules/xcos/images/palettes/SQRT.png" variable="SCI"/>
+            </block>
+            <block name="SUMMATION">
+                <icon path="/modules/xcos/images/palettes/SUMMATION.png" variable="SCI"/>
+            </block>
+            <block name="SUM_f">
+                <icon path="/modules/xcos/images/palettes/SUM_f.png" variable="SCI"/>
+            </block>
+            <block name="SOM_f">
+                <icon path="/modules/xcos/images/palettes/SOM_f.png" variable="SCI"/>
+            </block>
+            <block name="TANBLK_f">
+                <icon path="/modules/xcos/images/palettes/TANBLK_f.png" variable="SCI"/>
+            </block>
+            <block name="TrigFun">
+                <icon path="/modules/xcos/images/palettes/TrigFun.png" variable="SCI"/>
+            </block>
+            <block name="RELATIONALOP">
+                <icon path="/modules/xcos/images/palettes/RELATIONALOP.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Matrix" enable="true">
+            <block name="CUMSUM">
+                <icon path="/modules/xcos/images/palettes/CUMSUM.png" variable="SCI"/>
+            </block>
+            <block name="EXTRACT">
+                <icon path="/modules/xcos/images/palettes/EXTRACT.png" variable="SCI"/>
+            </block>
+            <block name="EXTTRI">
+                <icon path="/modules/xcos/images/palettes/EXTTRI.png" variable="SCI"/>
+            </block>
+            <block name="MATBKSL">
+                <icon path="/modules/xcos/images/palettes/MATBKSL.png" variable="SCI"/>
+            </block>
+            <block name="MATCATH">
+                <icon path="/modules/xcos/images/palettes/MATCATH.png" variable="SCI"/>
+            </block>
+            <block name="MATCATV">
+                <icon path="/modules/xcos/images/palettes/MATCATV.png" variable="SCI"/>
+            </block>
+            <block name="MATDET">
+                <icon path="/modules/xcos/images/palettes/MATDET.png" variable="SCI"/>
+            </block>
+            <block name="MATDIAG">
+                <icon path="/modules/xcos/images/palettes/MATDIAG.png" variable="SCI"/>
+            </block>
+            <block name="MATDIV">
+                <icon path="/modules/xcos/images/palettes/MATDIV.png" variable="SCI"/>
+            </block>
+            <block name="MATEIG">
+                <icon path="/modules/xcos/images/palettes/MATEIG.png" variable="SCI"/>
+            </block>
+            <block name="MATEXPM">
+                <icon path="/modules/xcos/images/palettes/MATEXPM.png" variable="SCI"/>
+            </block>
+            <block name="MATINV">
+                <icon path="/modules/xcos/images/palettes/MATINV.png" variable="SCI"/>
+            </block>
+            <block name="MATLU">
+                <icon path="/modules/xcos/images/palettes/MATLU.png" variable="SCI"/>
+            </block>
+            <block name="MATMAGPHI">
+                <icon path="/modules/xcos/images/palettes/MATMAGPHI.png" variable="SCI"/>
+            </block>
+            <block name="MATMUL">
+                <icon path="/modules/xcos/images/palettes/MATMUL.png" variable="SCI"/>
+            </block>
+            <block name="MATPINV">
+                <icon path="/modules/xcos/images/palettes/MATPINV.png" variable="SCI"/>
+            </block>
+            <block name="MATRESH">
+                <icon path="/modules/xcos/images/palettes/MATRESH.png" variable="SCI"/>
+            </block>
+            <block name="MATSING">
+                <icon path="/modules/xcos/images/palettes/MATSING.png" variable="SCI"/>
+            </block>
+            <block name="MATSUM">
+                <icon path="/modules/xcos/images/palettes/MATSUM.png" variable="SCI"/>
+            </block>
+            <block name="MATTRAN">
+                <icon path="/modules/xcos/images/palettes/MATTRAN.png" variable="SCI"/>
+            </block>
+            <block name="MATZCONJ">
+                <icon path="/modules/xcos/images/palettes/MATZCONJ.png" variable="SCI"/>
+            </block>
+            <block name="MATZREIM">
+                <icon path="/modules/xcos/images/palettes/MATZREIM.png" variable="SCI"/>
+            </block>
+            <block name="RICC">
+                <icon path="/modules/xcos/images/palettes/RICC.png" variable="SCI"/>
+            </block>
+            <block name="ROOTCOEF">
+                <icon path="/modules/xcos/images/palettes/ROOTCOEF.png" variable="SCI"/>
+            </block>
+            <block name="SQRT">
+                <icon path="/modules/xcos/images/palettes/SQRT.png" variable="SCI"/>
+            </block>
+            <block name="SUBMAT">
+                <icon path="/modules/xcos/images/palettes/SUBMAT.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Electrical" enable="true">
+            <block name="CCS">
+                <icon path="/modules/xcos/images/palettes/CCS.png" variable="SCI"/>
+            </block>
+            <block name="CVS">
+                <icon path="/modules/xcos/images/palettes/CVS.png" variable="SCI"/>
+            </block>
+            <block name="Capacitor">
+                <icon path="/modules/xcos/images/palettes/Capacitor.png" variable="SCI"/>
+            </block>
+            <block name="ConstantVoltage">
+                <icon path="/modules/xcos/images/palettes/ConstantVoltage.png" variable="SCI"/>
+            </block>
+            <block name="CurrentSensor">
+                <icon path="/modules/xcos/images/palettes/CurrentSensor.png" variable="SCI"/>
+            </block>
+            <block name="Diode">
+                <icon path="/modules/xcos/images/palettes/Diode.png" variable="SCI"/>
+            </block>
+            <block name="Ground">
+                <icon path="/modules/xcos/images/palettes/Ground.png" variable="SCI"/>
+            </block>
+            <block name="Gyrator">
+                <icon path="/modules/xcos/images/palettes/Gyrator.png" variable="SCI"/>
+            </block>
+            <block name="IdealTransformer">
+                <icon path="/modules/xcos/images/palettes/IdealTransformer.png" variable="SCI"/>
+            </block>
+            <block name="Inductor">
+                <icon path="/modules/xcos/images/palettes/Inductor.png" variable="SCI"/>
+            </block>
+            <block name="NMOS">
+                <icon path="/modules/xcos/images/palettes/NMOS.png" variable="SCI"/>
+            </block>
+            <block name="NPN">
+                <icon path="/modules/xcos/images/palettes/NPN.png" variable="SCI"/>
+            </block>
+            <block name="OpAmp">
+                <icon path="/modules/xcos/images/palettes/OpAmp.png" variable="SCI"/>
+            </block>
+            <block name="PMOS">
+                <icon path="/modules/xcos/images/palettes/PMOS.png" variable="SCI"/>
+            </block>
+            <block name="PNP">
+                <icon path="/modules/xcos/images/palettes/PNP.png" variable="SCI"/>
+            </block>
+            <block name="PotentialSensor">
+                <icon path="/modules/xcos/images/palettes/PotentialSensor.png" variable="SCI"/>
+            </block>
+            <block name="Resistor">
+                <icon path="/modules/xcos/images/palettes/Resistor.png" variable="SCI"/>
+            </block>
+            <block name="SineVoltage">
+                <icon path="/modules/xcos/images/palettes/SineVoltage.png" variable="SCI"/>
+            </block>
+            <block name="Switch">
+                <icon path="/modules/xcos/images/palettes/Switch.png" variable="SCI"/>
+            </block>
+            <block name="VVsourceAC">
+                <icon path="/modules/xcos/images/palettes/VVsourceAC.png" variable="SCI"/>
+            </block>
+            <block name="VariableResistor">
+                <icon path="/modules/xcos/images/palettes/VariableResistor.png" variable="SCI"/>
+            </block>
+            <block name="VoltageSensor">
+                <icon path="/modules/xcos/images/palettes/VoltageSensor.png" variable="SCI"/>
+            </block>
+            <block name="VsourceAC">
+                <icon path="/modules/xcos/images/palettes/VsourceAC.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Integer" enable="true">
+            <block name="BITCLEAR">
+                <icon path="/modules/xcos/images/palettes/BITCLEAR.png" variable="SCI"/>
+            </block>
+            <block name="BITSET">
+                <icon path="/modules/xcos/images/palettes/BITSET.png" variable="SCI"/>
+            </block>
+            <block name="CONVERT">
+                <icon path="/modules/xcos/images/palettes/CONVERT.png" variable="SCI"/>
+            </block>
+            <block name="DFLIPFLOP">
+                <icon path="/modules/xcos/images/palettes/DFLIPFLOP.png" variable="SCI"/>
+            </block>
+            <block name="DLATCH">
+                <icon path="/modules/xcos/images/palettes/DLATCH.png" variable="SCI"/>
+            </block>
+            <block name="EXTRACTBITS">
+                <icon path="/modules/xcos/images/palettes/EXTRACTBITS.png" variable="SCI"/>
+            </block>
+            <block name="INTMUL">
+                <icon path="/modules/xcos/images/palettes/INTMUL.png" variable="SCI"/>
+            </block>
+            <block name="JKFLIPFLOP">
+                <icon path="/modules/xcos/images/palettes/JKFLIPFLOP.png" variable="SCI"/>
+            </block>
+            <block name="LOGIC">
+                <icon path="/modules/xcos/images/palettes/LOGIC.png" variable="SCI"/>
+            </block>
+            <block name="SHIFT">
+                <icon path="/modules/xcos/images/palettes/SHIFT.png" variable="SCI"/>
+            </block>
+            <block name="SRFLIPFLOP">
+                <icon path="/modules/xcos/images/palettes/SRFLIPFLOP.png" variable="SCI"/>
+            </block>
+            <block name="LOGICAL_OP">
+                <icon path="/modules/xcos/images/palettes/LOGICAL_OP.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Port &amp; Subsystem" enable="true">
+            <block name="CLKINV_f">
+                <icon path="/modules/xcos/images/palettes/CLKINV_f.png" variable="SCI"/>
+            </block>
+            <block name="CLKOUTV_f">
+                <icon path="/modules/xcos/images/palettes/CLKOUTV_f.png" variable="SCI"/>
+            </block>
+            <block name="IN_f">
+                <icon path="/modules/xcos/images/palettes/IN_f.png" variable="SCI"/>
+            </block>
+            <block name="INIMPL_f">
+                <icon path="/modules/xcos/images/palettes/INIMPL_f.png" variable="SCI"/>
+            </block>
+            <block name="OUTIMPL_f">
+                <icon path="/modules/xcos/images/palettes/OUTIMPL_f.png" variable="SCI"/>
+            </block>
+            <block name="OUT_f">
+                <icon path="/modules/xcos/images/palettes/OUT_f.png" variable="SCI"/>
+            </block>
+            <block name="SUPER_f">
+                <icon path="/modules/xcos/images/palettes/SUPER_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Zero crossing detection" enable="true">
+            <block name="GENERAL_f">
+                <icon path="/modules/xcos/images/palettes/GENERAL_f.png" variable="SCI"/>
+            </block>
+            <block name="NEGTOPOS_f">
+                <icon path="/modules/xcos/images/palettes/NEGTOPOS_f.png" variable="SCI"/>
+            </block>
+            <block name="POSTONEG_f">
+                <icon path="/modules/xcos/images/palettes/POSTONEG_f.png" variable="SCI"/>
+            </block>
+            <block name="ZCROSS_f">
+                <icon path="/modules/xcos/images/palettes/ZCROSS_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Signal Routing" enable="true">
+            <block name="DEMUX">
+                <icon path="/modules/xcos/images/palettes/DEMUX.png" variable="SCI"/>
+            </block>
+            <block name="DEMUX_f">
+                <icon path="/modules/xcos/images/palettes/DEMUX_f.png" variable="SCI"/>
+            </block>
+            <block name="EXTRACTOR">
+                <icon path="/modules/xcos/images/palettes/EXTRACTOR.png" variable="SCI"/>
+            </block>
+            <block name="SCALAR2VECTOR">
+                <icon path="/modules/xcos/images/palettes/SCALAR2VECTOR.png" variable="SCI"/>
+            </block>
+            <block name="FROM">
+                <icon path="/modules/xcos/images/palettes/FROM.png" variable="SCI"/>
+            </block>
+            <block name="FROMMO">
+                <icon path="/modules/xcos/images/palettes/FROMMO.png" variable="SCI"/>
+            </block>
+            <block name="GOTO">
+                <icon path="/modules/xcos/images/palettes/GOTO.png" variable="SCI"/>
+            </block>
+            <block name="GOTOMO">
+                <icon path="/modules/xcos/images/palettes/GOTOMO.png" variable="SCI"/>
+            </block>
+            <block name="CLKFROM">
+                <icon path="/modules/xcos/images/palettes/CLKFROM.png" variable="SCI"/>
+            </block>
+            <block name="CLKGOTO">
+                <icon path="/modules/xcos/images/palettes/CLKGOTO.png" variable="SCI"/>
+            </block>
+            <block name="GotoTagVisibility">
+                <icon path="/modules/xcos/images/palettes/GotoTagVisibility.png" variable="SCI"/>
+            </block>
+            <block name="GotoTagVisibilityMO">
+                <icon path="/modules/xcos/images/palettes/GotoTagVisibilityMO.png" variable="SCI"/>
+            </block>
+            <block name="ISELECT_m">
+                <icon path="/modules/xcos/images/palettes/ISELECT_m.png" variable="SCI"/>
+            </block>
+            <block name="MUX">
+                <icon path="/modules/xcos/images/palettes/MUX.png" variable="SCI"/>
+            </block>
+            <block name="MUX_f">
+                <icon path="/modules/xcos/images/palettes/MUX_f.png" variable="SCI"/>
+            </block>
+            <block name="M_SWITCH">
+                <icon path="/modules/xcos/images/palettes/M_SWITCH.png" variable="SCI"/>
+            </block>
+            <block name="NRMSOM_f">
+                <icon path="/modules/xcos/images/palettes/NRMSOM_f.png" variable="SCI"/>
+            </block>
+            <block name="RELAY_f">
+                <icon path="/modules/xcos/images/palettes/RELAY_f.png" variable="SCI"/>
+            </block>
+            <block name="SELECT_m">
+                <icon path="/modules/xcos/images/palettes/SELECT_m.png" variable="SCI"/>
+            </block>
+            <block name="SWITCH2_m">
+                <icon path="/modules/xcos/images/palettes/SWITCH2_m.png" variable="SCI"/>
+            </block>
+            <block name="SWITCH_f">
+                <icon path="/modules/xcos/images/palettes/SWITCH_f.png" variable="SCI"/>
+            </block>
+            <block name="SELF_SWITCH">
+                <icon path="/modules/xcos/images/palettes/SELF_SWITCH.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Signal Processing" enable="true">
+            <block name="QUANT_f">
+                <icon path="/modules/xcos/images/palettes/QUANT_f.png" variable="SCI"/>
+            </block>
+            <block name="SAMPHOLD_m">
+                <icon path="/modules/xcos/images/palettes/SAMPHOLD_m.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Implicit" enable="true">
+            <block name="CONSTRAINT_c">
+                <icon path="/modules/xcos/images/palettes/CONSTRAINT_c.png" variable="SCI"/>
+            </block>
+            <block name="CONSTRAINT2_c">
+                <icon path="/modules/xcos/images/palettes/CONSTRAINT2_c.png" variable="SCI"/>
+            </block>
+            <block name="DIFF_f">
+                <icon path="/modules/xcos/images/palettes/DIFF_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Annotations" enable="true">
+            <block name="TEXT_f">
+                <icon path="/modules/xcos/images/palettes/TEXT_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Sinks" enable="true">
+            <block name="AFFICH_m">
+                <icon path="/modules/xcos/images/palettes/AFFICH_m.png" variable="SCI"/>
+            </block>
+            <block name="BARXY">
+                <icon path="/modules/xcos/images/palettes/BARXY.png" variable="SCI"/>
+            </block>
+            <block name="CEVENTSCOPE">
+                <icon path="/modules/xcos/images/palettes/CEVENTSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CANIMXY">
+                <icon path="/modules/xcos/images/palettes/CANIMXY.png" variable="SCI"/>
+            </block>
+            <block name="CANIMXY3D">
+                <icon path="/modules/xcos/images/palettes/CANIMXY3D.png" variable="SCI"/>
+            </block>
+            <block name="CFSCOPE">
+                <icon path="/modules/xcos/images/palettes/CFSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CLKOUTV_f">
+                <icon path="/modules/xcos/images/palettes/CLKOUTV_f.png" variable="SCI"/>
+            </block>
+            <block name="CMAT3D">
+                <icon path="/modules/xcos/images/palettes/CMAT3D.png" variable="SCI"/>
+            </block>
+            <block name="CMATVIEW">
+                <icon path="/modules/xcos/images/palettes/CMATVIEW.png" variable="SCI"/>
+            </block>
+            <block name="CMSCOPE">
+                <icon path="/modules/xcos/images/palettes/CMSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="SCALE_CMSCOPE">
+                <icon path="/modules/xcos/images/palettes/SCALE_CMSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CSCOPE">
+                <icon path="/modules/xcos/images/palettes/CSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="SCALE_CSCOPE">
+                <icon path="/modules/xcos/images/palettes/SCALE_CSCOPE.png" variable="SCI"/>
+            </block>
+            <block name="CSCOPXY">
+                <icon path="/modules/xcos/images/palettes/CSCOPXY.png" variable="SCI"/>
+            </block>
+            <block name="CSCOPXY3D">
+                <icon path="/modules/xcos/images/palettes/CSCOPXY3D.png" variable="SCI"/>
+            </block>
+            <block name="ENDBLK">
+                <icon path="/modules/xcos/images/palettes/ENDBLK.png" variable="SCI"/>
+            </block>
+            <block name="END_c">
+                <icon path="/modules/xcos/images/palettes/END_c.png" variable="SCI"/>
+            </block>
+            <block name="HALT_f">
+                <icon path="/modules/xcos/images/palettes/HALT_f.png" variable="SCI"/>
+            </block>
+            <block name="OUTIMPL_f">
+                <icon path="/modules/xcos/images/palettes/OUTIMPL_f.png" variable="SCI"/>
+            </block>
+            <block name="OUT_f">
+                <icon path="/modules/xcos/images/palettes/OUT_f.png" variable="SCI"/>
+            </block>
+            <block name="TOWS_c">
+                <icon path="/modules/xcos/images/palettes/TOWS_c.png" variable="SCI"/>
+            </block>
+            <block name="TRASH_f">
+                <icon path="/modules/xcos/images/palettes/TRASH_f.png" variable="SCI"/>
+            </block>
+            <block name="WRITEAU_f">
+                <icon path="/modules/xcos/images/palettes/WRITEAU_f.png" variable="SCI"/>
+            </block>
+            <block name="WRITEC_f">
+                <icon path="/modules/xcos/images/palettes/WRITEC_f.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Sources" enable="true">
+            <block name="CLKINV_f">
+                <icon path="/modules/xcos/images/palettes/CLKINV_f.png" variable="SCI"/>
+            </block>
+            <block name="CLOCK_c">
+                <icon path="/modules/xcos/images/palettes/CLOCK_c.png" variable="SCI"/>
+            </block>
+            <block name="CONST_m">
+                <icon path="/modules/xcos/images/palettes/CONST_m.png" variable="SCI"/>
+            </block>
+            <block name="CONST">
+                <icon path="/modules/xcos/images/palettes/CONST.png" variable="SCI"/>
+            </block>
+            <block name="CONST_f">
+                <icon path="/modules/xcos/images/palettes/CONST_f.png" variable="SCI"/>
+            </block>
+            <block name="CURV_f">
+                <icon path="/modules/xcos/images/palettes/CURV_f.png" variable="SCI"/>
+            </block>
+            <block name="Counter">
+                <icon path="/modules/xcos/images/palettes/Counter.png" variable="SCI"/>
+            </block>
+            <block name="FROMWSB">
+                <icon path="/modules/xcos/images/palettes/FROMWSB.png" variable="SCI"/>
+            </block>
+            <block name="GENSIN_f">
+                <icon path="/modules/xcos/images/palettes/GENSIN_f.png" variable="SCI"/>
+            </block>
+            <block name="GENSQR_f">
+                <icon path="/modules/xcos/images/palettes/GENSQR_f.png" variable="SCI"/>
+            </block>
+            <block name="INIMPL_f">
+                <icon path="/modules/xcos/images/palettes/INIMPL_f.png" variable="SCI"/>
+            </block>
+            <block name="IN_f">
+                <icon path="/modules/xcos/images/palettes/IN_f.png" variable="SCI"/>
+            </block>
+            <block name="Modulo_Count">
+                <icon path="/modules/xcos/images/palettes/Modulo_Count.png" variable="SCI"/>
+            </block>
+            <block name="RAMP">
+                <icon path="/modules/xcos/images/palettes/RAMP.png" variable="SCI"/>
+            </block>
+            <block name="RAND_m">
+                <icon path="/modules/xcos/images/palettes/RAND_m.png" variable="SCI"/>
+            </block>
+            <block name="READAU_f">
+                <icon path="/modules/xcos/images/palettes/READAU_f.png" variable="SCI"/>
+            </block>
+            <block name="READC_f">
+                <icon path="/modules/xcos/images/palettes/READC_f.png" variable="SCI"/>
+            </block>
+            <block name="RFILE_f">
+                <icon path="/modules/xcos/images/palettes/RFILE_f.png" variable="SCI"/>
+            </block>
+            <block name="SAWTOOTH_f">
+                <icon path="/modules/xcos/images/palettes/SAWTOOTH_f.png" variable="SCI"/>
+            </block>
+            <block name="STEP_FUNCTION">
+                <icon path="/modules/xcos/images/palettes/STEP_FUNCTION.png" variable="SCI"/>
+            </block>
+            <block name="PULSE_SC">
+                <icon path="/modules/xcos/images/palettes/PULSE_SC.png" variable="SCI"/>
+            </block>
+            <block name="SampleCLK">
+                <icon path="/modules/xcos/images/palettes/SampleCLK.png" variable="SCI"/>
+            </block>
+            <block name="Sigbuilder">
+                <icon path="/modules/xcos/images/palettes/Sigbuilder.png" variable="SCI"/>
+            </block>
+            <block name="TIME_f">
+                <icon path="/modules/xcos/images/palettes/TIME_f.png" variable="SCI"/>
+            </block>
+            <block name="TKSCALE">
+                <icon path="/modules/xcos/images/palettes/TKSCALE.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Thermo-Hydraulics" enable="true">
+            <block name="Bache">
+                <icon path="/modules/xcos/images/palettes/Bache.png" variable="SCI"/>
+            </block>
+            <block name="PerteDP">
+                <icon path="/modules/xcos/images/palettes/PerteDP.png" variable="SCI"/>
+            </block>
+            <block name="PuitsP">
+                <icon path="/modules/xcos/images/palettes/PuitsP.png" variable="SCI"/>
+            </block>
+            <block name="SourceP">
+                <icon path="/modules/xcos/images/palettes/SourceP.png" variable="SCI"/>
+            </block>
+            <block name="VanneReglante">
+                <icon path="/modules/xcos/images/palettes/VanneReglante.png" variable="SCI"/>
+            </block>
+            <block name="Flowmeter">
+                <icon path="/modules/xcos/images/palettes/Flowmeter.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="Demonstrations Blocks" enable="true">
+            <block name="BOUNCE">
+                <icon path="/modules/xcos/images/palettes/BOUNCE.png" variable="SCI"/>
+            </block>
+            <block name="BOUNCEXY">
+                <icon path="/modules/xcos/images/palettes/BOUNCEXY.png" variable="SCI"/>
+            </block>
+            <block name="BPLATFORM">
+                <icon path="/modules/xcos/images/palettes/BPLATFORM.png" variable="SCI"/>
+            </block>
+        </node>
+        <node xsi:type="PreLoaded" name="User-Defined Functions" enable="true">
+            <block name="CBLOCK">
+                <icon path="/modules/xcos/images/palettes/CBLOCK.png" variable="SCI"/>
+            </block>
+            <block name="CBLOCK4">
+                <icon path="/modules/xcos/images/palettes/CBLOCK4.png" variable="SCI"/>
+            </block>
+            <block name="DEBUG">
+                <icon path="/modules/xcos/images/palettes/DEBUG.png" variable="SCI"/>
+            </block>
+            <block name="EXPRESSION">
+                <icon path="/modules/xcos/images/palettes/EXPRESSION.png" variable="SCI"/>
+            </block>
+            <block name="MBLOCK">
+                <icon path="/modules/xcos/images/palettes/MBLOCK.png" variable="SCI"/>
+            </block>
+            <block name="PDE">
+                <icon path="/modules/xcos/images/palettes/PDE.png" variable="SCI"/>
+            </block>
+            <block name="SUPER_f">
+                <icon path="/modules/xcos/images/palettes/SUPER_f.png" variable="SCI"/>
+            </block>
+            <block name="c_block">
+                <icon path="/modules/xcos/images/palettes/c_block.png" variable="SCI"/>
+            </block>
+            <block name="fortran_block">
+                <icon path="/modules/xcos/images/palettes/fortran_block.png" variable="SCI"/>
+            </block>
+            <block name="generic_block3">
+                <icon path="/modules/xcos/images/palettes/generic_block3.png" variable="SCI"/>
+            </block>
+            <block name="scifunc_block_m">
+                <icon path="/modules/xcos/images/palettes/scifunc_block_m.png" variable="SCI"/>
+            </block>
+        </node>
+    </node>
+</category>
